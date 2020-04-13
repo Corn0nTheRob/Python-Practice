@@ -34,7 +34,7 @@ dmgVar.set(damageTypes[0])
 
 #SECTION 2:  SQLite FUNCTIONS
 
-wepDB = sqlite3.connect('weapons.db')#sqlite initiator
+wepDB = sqlite3.connect('DnDapp/weapons.db')#sqlite initiator
 c = wepDB.cursor()
 
 #reloads the csv into the database. uncomment if you made any changes to the csv. 
@@ -44,7 +44,7 @@ c = wepDB.cursor()
 
 def readSqliteTable():  #reads the SQL table and populates the weapons[] list
     try:
-        sqliteConnection = sqlite3.connect('weapons.db')
+        sqliteConnection = sqlite3.connect('DnDapp/weapons.db')
         c = sqliteConnection.cursor()
         print("Connected to Weapons Database")
 
