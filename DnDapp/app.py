@@ -193,7 +193,7 @@ def dmgCalc(): #rolls the number of dice according to the entered dice kind and 
 #SECTION 5: BUTTONS
 
 
-runHitButton = tk.Button(root, text="Run", padx=10, pady=5, command=hitCalc) #button to run the hitCalc method
+runHitButton = tk.Button(root, text="Will it Hit?", padx=10, pady=5, command=hitCalc) #button to run the hitCalc method
 runHitButton.grid(row = 6, column = 0, columnspan = 2, pady = 0)
 
 runDmgButton = tk.Button(root, text="Calculate Damage", padx=10, pady=5, command=dmgCalc) #button to run the dmgCalc method
