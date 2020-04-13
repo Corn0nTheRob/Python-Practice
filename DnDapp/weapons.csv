@@ -1,3 +1,4 @@
+name,num_dice,dice_kind,dmg_type
 Club,1,d4,bludgeoning
 Dagger,1,d4,piercing
 Greatclub,1,d8,bludgeoning
@@ -32,8 +33,7 @@ Warhammer,1,d8,bludgeoning
 Whip,1,d4,slashing
 War Scythe (3pp),1,d10,slashing
 Blowgun,1,d1,piercing
-"Crossbow, hand",1,d6,piercing
-"Crossbow, heavy",1,d10,piercing
+Hand Crossbow,1,d6,piercing
+Heavy Crossbow,1,d10,piercing
 Great Bow (3pp),1,d8,piercing
 Longbow,1,d8,piercing
-,,,
